@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activiteis.EducationActivity">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        app:srcCompat="@drawable/edu" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="Education And Training"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:text="Education"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/degreeEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:ems="10"
+        android:hint="Degree"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/eduOrgNameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:ems="10"
+        android:hint="Organization Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/eduOrgAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="20dp"
+        android:text="Training"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/trainDescEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:ems="10"
+        android:hint="Training Description"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/trainOrgNameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:ems="10"
+        android:hint="Organization Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/trainOrgAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToWork"
+        android:text="Next > Work Experience" />
+</LinearLayout>
